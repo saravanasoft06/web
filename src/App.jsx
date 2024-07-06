@@ -2,9 +2,10 @@ import Carousel from "./components/Carousel";
 import Products from "./components/Products";
 import WhoWeAre from "./components/WhoWeAre";
 import Navbar from "./components/NavBar";
-import product1 from "../src/assets/tally-prime-logo.svg";
-import product2 from "../src/assets/tally-black.png";
+import product1 from "../src/assets/tally-black.png";
+import product2 from "../src/assets/tally-prime-logo.svg";
 import product3 from "../src/assets/software-services.png";
+import product4 from "../src/assets/aws.webp";
 import Footer from "./components/Footer";
 import Services from "./components/Services";
 import service1 from "../src/assets/maintenance.png";
@@ -16,16 +17,18 @@ import Map from "./components/Map";
 import Contact from "./components/Contact";
 
 function App() {
-  const images1 = [product1, product2, product3];
+  const images1 = [product1, product2, product3, product4];
   const headings1 = [
     "Tally Prime",
     "Tally Prime Server",
     " Tally Software Services",
+    "AWS",
   ];
   const contents1 = [
     "Tally Prime is an advanced accounting software platform designed for small and medium-sized businesses to efficiently manage their financial and accounting operations with ease and precision.",
     "Tally Prime Server is a centralized data management solution that enhances Tally Prime's capabilities by providing multi-user access and data security for businesses with multiple users or locations.",
     "Tally software services encompass a range of support and solutions tailored to help businesses streamline their financial management and accounting processes using Tally software.",
+    "TallyPrime, powered by AWS, ensures secure, remote access for collaborative work, enabling multiple users to interact seamlessly and efficiently with business data from anywhere, anytime.",
   ];
 
   const images2 = [service1, service2, service3, service4, service5];
@@ -50,7 +53,7 @@ function App() {
       <Carousel />
       <WhoWeAre />
       <Products images={images1} headings={headings1} contents={contents1} />
-      <Services images={images2} headings={headings2} contents={contents2}/>
+      <Services images={images2} headings={headings2} contents={contents2} />
       <Map />
       <Contact />
       <Footer />

@@ -13,10 +13,10 @@ function Footer() {
     <div className="">
       <footer className="footer footer-center p-10 bg-[#3085C3] text-base-content rounded">
         <nav className="grid grid-flow-col gap-4">
-          <p className="link link-hover text-white"  onClick={() => handleScrollTo("about-us")}>About Us</p>
-          <p className="link link-hover text-white"  onClick={() => handleScrollTo("contact-us")}>Contact Us</p>
-          <p className="link link-hover text-white"  onClick={() => handleScrollTo("products")}>Products</p>
-          <p className="link link-hover text-white"  onClick={() => handleScrollTo("services")}>Services</p>
+          <p className="link link-hover text-white hover:text-[#FFCC70]"  onClick={() => handleScrollTo("about-us")}>About Us</p>
+          <p className="link link-hover text-white hover:text-[#FFCC70]"  onClick={() => handleScrollTo("contact-us")}>Contact Us</p>
+          <p className="link link-hover text-white hover:text-[#FFCC70]"  onClick={() => handleScrollTo("products")}>Products</p>
+          <p className="link link-hover text-white hover:text-[#FFCC70]"  onClick={() => handleScrollTo("services")}>Services</p>
         </nav>
         <nav>
           <div className="grid grid-flow-col gap-4">
